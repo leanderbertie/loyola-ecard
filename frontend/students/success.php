@@ -3,7 +3,7 @@ session_start();
 require __DIR__ . "/../../vendor/autoload.php";
 require_once "../../backend/db_conn.php";
 
-$stripe = new \Stripe\StripeClient('sk_test_cEjXShRlZO1YrzP8Txn6Ulya00EhUj1dRS');
+$stripe = new \Stripe\StripeClient('');
 
 // Retrieve the session ID from URL
 if (isset($_GET['session_id'])) {

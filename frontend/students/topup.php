@@ -10,7 +10,7 @@ include "../../vendor/autoload.php"; // Include Stripe PHP SDK
 $fetch_user_balance = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM students_data WHERE dept_no='$logged_in_user'"));
 
 // Stripe public key
-$stripe_public_key = 'sk_test_cEjXShRlZO1YrzP8Txn6Ulya00EhUj1dRS ';
+$stripe_public_key = ' ';
 ?>
 
 <!DOCTYPE html>

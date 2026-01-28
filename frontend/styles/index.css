@@ -1,0 +1,93 @@
+ 
+ /* Login page specific styles */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.card-header h1 {
+    color: var(--neutral-800);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: var(--neutral-600);
+    font-size: 16px;
+}
+
+.login-form {
+    margin-top: 24px;
+}
+
+.password-input {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--neutral-500);
+    cursor: pointer;
+    padding: 0;
+}
+
+.toggle-password:hover {
+    color: var(--primary-color);
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.card-footer {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--neutral-500);
+    font-size: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .login-card {
+        padding: 20px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card-header h1 {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+}

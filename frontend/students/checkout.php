@@ -19,7 +19,6 @@ $amount = (int)$_POST['amount'];
 $amount = $amount * 100;
 
 // Initialize Stripe with the correct secret key
-$stripe = new \Stripe\StripeClient('');
 
 try {
     $checkout_session = $stripe->checkout->sessions->create([
